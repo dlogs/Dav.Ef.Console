@@ -18,7 +18,8 @@ namespace Dav.Ef.Database
         public iSwoonDbContext()
             : base("name=iSwoonDbContext")
         {
-            
+            // TODO: Add this line and see what breaks. Try to fix it!
+            //Configuration.LazyLoadingEnabled = false;
         }
         
 
